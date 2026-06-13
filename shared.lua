@@ -22,7 +22,7 @@ local open_chest_table = {}
 -- Pipeworks compatibility
 local pipeworks_flag = false
 if minetest.get_modpath("pipeworks") then
-    pipeworks_flag = true
+    pipeworks_flag = false
 end
 
 ---------------------------------------------------------------------------------------------------
