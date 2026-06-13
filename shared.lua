@@ -617,9 +617,6 @@ function twchests.register_chest(data_table)
     else
 
         if pipeworks_flag then
-        
-            def_table.after_place_node = pipeworks.after_place
-            def_table.after_dig_node = pipeworks.after_dig
             
         end
         
