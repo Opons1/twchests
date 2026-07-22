@@ -88,21 +88,3 @@ twchests.register_chest({
     large_flag = true,
     max_pages = 0,
 })
-minetest.register_craft({
-    output = "twchests:chest_bottomless_locked",
-    recipe = {
-        {c_diamond, c_def_chest, c_diamond},
-        {c_def_chest, c_ingot, c_def_chest},
-        {c_diamond, c_def_chest, c_diamond},
-    }
-})
-minetest.register_craft({
-    type = "shapeless",
-    output = "twchests:chest_bottomless_locked",
-    recipe = {"twchests:chest_bottomless", c_ingot},
-})    
-minetest.register_craft({
-    type = "fuel",
-    recipe = "twchests:chest_bottomless_locked",
-    burntime = 60,
-})
